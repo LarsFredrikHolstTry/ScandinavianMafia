@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+table { 
+    width: 600px; 
+    border-collapse: collapse; 
+    margin: 0px auto;
+}
+
+/* Zebra striping */
+
+
+tr:nth-of-type(odd) { 
+    background: aliceblue; 
+}
+th { 
+    background: #0f0e0e; 
+    color: aliceblue; 
+    font-weight: bold; 
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid black; 
+    text-align: left; 
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+tr:hover {
+    background: #a9a9a9;
+    cursor: pointer;
+}
+
+.krimbilde {
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.krim {
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.krim:hover {
+    background-color: dimgray;
+}
+
+#ventetid {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#velykket {
+    width: 600px;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.handling {
+    width: 600px;
+    height: 40px;
+    background-color: #0f0e0e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
