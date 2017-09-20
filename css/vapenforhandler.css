@@ -1,0 +1,32 @@
+
+#vapen {
+    padding: 15px;
+    width: 145px;
+    height: 150px;
+    background-color: #0f0e0e;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+
+.vapenforhandlerimg {
+    margin-top: 10px;
+}
+
+#vapen img {
+    width: 150px;
+    height: auto;
+}
+
+#vapen li {
+    margin: 5px;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.container {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
