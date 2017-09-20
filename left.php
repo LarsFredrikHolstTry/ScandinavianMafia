@@ -15,14 +15,14 @@
       <br/>
       
       <h2>Handlinger</h2>
-        <li><t id="red">- </t><a href="handlinger/garasje.php">Garasje</a></li>
-        <li><t id="red">- </t><a href="handlinger/bilforhandler.php">Bilforhandler</a></li>
-        <li><t id="red">- </t><a href="handlinger/reise.php">Reise</a></li>
+        <li><t id="red">- </t><a href="#">Garasje</a></li>
+        <li><t id="red">- </t><a href="bilforhandler.php">Bilforhandler <font color=lightgreen>FERDIG</font></a></li>
+        <li><t id="red">- </t><a href="#">Reise</a></li>
       <br/>
       
       <h2>Drap</h2>
-        <li><t id="red">- </t><a href="drep.php">Drep</a></li>
-        <li><t id="red">- </t><a href="kulefabrikk.php">Kulefabrikk</a></li>
+        <li><t id="red">- </t><a href="#">Drep</a></li>
+        <li><t id="red">- </t><a href="kulefabrikk.php">Kulefabrikk <font color=lightgreen>FERDIG</font></a></li>
         <li><t id="red">- </t><a href="vapenforhandler.php">Våpenforhandler <font color=lightgreen>FERDIG</font></a></li>
       <br/>
     
