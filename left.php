@@ -23,7 +23,7 @@
       <h2>Drap</h2>
         <li><t id="red">- </t><a href="drep.php">Drep</a></li>
         <li><t id="red">- </t><a href="kulefabrikk.php">Kulefabrikk</a></li>
-        <li><t id="red">- </t><a href="vapenforhandler.php">Våpenforhandler <font color=lightgreen>W.I.P</font></a></li>
+        <li><t id="red">- </t><a href="vapenforhandler.php">Våpenforhandler <font color=lightgreen>FERDIG</font></a></li>
       <br/>
     
         <h2>Spill</h2>
