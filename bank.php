@@ -11,11 +11,14 @@
         <center>
             <div id="bank">
                 <img src="images/handlinger/bank.png">
-                <li id="pengibank">Penger i banken: <?php echo number_format($bank_penger, 0, '.', ' '); ?>,- </li>
-                <form action="bank.php" method="post">
+                <li id="bankdesign1"><b>Bankkonto</b></li>
+                <li id="bankdesign">Kontoeier: <b><?php echo $username ?></b></li>
+                <li id="bankdesign">Penger i banken: <?php echo number_format($bank_penger, 0, '.', ' '); ?>,- </li>
+                <li id="bankdesign" ><form action="bank.php" method="post">
                     <input type="text" name="antallpenger" placeholder="" required />
                     <input type="submit" name="submit" value="Sett inn">
                 </form>
+                </li>
             </div>
         </center>
     </body>
@@ -47,4 +50,5 @@ if (isset($_REQUEST['antallpenger'])){
         header("Refresh:0; url=bank.php");
     }
 }
+
 ?>
